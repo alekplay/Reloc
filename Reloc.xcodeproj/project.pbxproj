@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281CD14719C40357002B1BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14619C40357002B1BD3 /* Foundation.framework */; };
+		281CD14919C40357002B1BD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14819C40357002B1BD3 /* CoreGraphics.framework */; };
+		281CD14B19C40357002B1BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14A19C40357002B1BD3 /* UIKit.framework */; };
+		281CD15119C40357002B1BD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281CD14F19C40357002B1BD3 /* InfoPlist.strings */; };
+		281CD15319C40357002B1BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD15219C40357002B1BD3 /* main.m */; };
+		281CD15719C40357002B1BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD15619C40357002B1BD3 /* AppDelegate.m */; };
+		281CD15A19C40357002B1BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281CD15819C40357002B1BD3 /* Main.storyboard */; };
+		281CD15D19C40357002B1BD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD15C19C40357002B1BD3 /* ViewController.m */; };
+		281CD15F19C40357002B1BD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281CD15E19C40357002B1BD3 /* Images.xcassets */; };
+		281CD16619C40357002B1BD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD16519C40357002B1BD3 /* XCTest.framework */; };
+		281CD16719C40357002B1BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14619C40357002B1BD3 /* Foundation.framework */; };
+		281CD16819C40357002B1BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14A19C40357002B1BD3 /* UIKit.framework */; };
+		281CD17019C40357002B1BD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281CD16E19C40357002B1BD3 /* InfoPlist.strings */; };
+		281CD17219C40357002B1BD3 /* RelocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD17119C40357002B1BD3 /* RelocTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281CD16919C40357002B1BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281CD13B19C40357002B1BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281CD14219C40357002B1BD3;
+			remoteInfo = Reloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281CD14319C40357002B1BD3 /* Reloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281CD14619C40357002B1BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		281CD14819C40357002B1BD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		281CD14A19C40357002B1BD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		281CD14E19C40357002B1BD3 /* Reloc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reloc-Info.plist"; sourceTree = "<group>"; };
+		281CD15019C40357002B1BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		281CD15219C40357002B1BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		281CD15419C40357002B1BD3 /* Reloc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reloc-Prefix.pch"; sourceTree = "<group>"; };
+		281CD15519C40357002B1BD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		281CD15619C40357002B1BD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		281CD15919C40357002B1BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281CD15B19C40357002B1BD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		281CD15C19C40357002B1BD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		281CD15E19C40357002B1BD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		281CD16419C40357002B1BD3 /* RelocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281CD16519C40357002B1BD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		281CD16D19C40357002B1BD3 /* RelocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelocTests-Info.plist"; sourceTree = "<group>"; };
+		281CD16F19C40357002B1BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		281CD17119C40357002B1BD3 /* RelocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelocTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281CD14019C40357002B1BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD14919C40357002B1BD3 /* CoreGraphics.framework in Frameworks */,
+				281CD14B19C40357002B1BD3 /* UIKit.framework in Frameworks */,
+				281CD14719C40357002B1BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281CD16119C40357002B1BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD16619C40357002B1BD3 /* XCTest.framework in Frameworks */,
+				281CD16819C40357002B1BD3 /* UIKit.framework in Frameworks */,
+				281CD16719C40357002B1BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281CD13A19C40357002B1BD3 = {
+			isa = PBXGroup;
+			children = (
+				281CD14C19C40357002B1BD3 /* Reloc */,
+				281CD16B19C40357002B1BD3 /* RelocTests */,
+				281CD14519C40357002B1BD3 /* Frameworks */,
+				281CD14419C40357002B1BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281CD14419C40357002B1BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281CD14319C40357002B1BD3 /* Reloc.app */,
+				281CD16419C40357002B1BD3 /* RelocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281CD14519C40357002B1BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281CD14619C40357002B1BD3 /* Foundation.framework */,
+				281CD14819C40357002B1BD3 /* CoreGraphics.framework */,
+				281CD14A19C40357002B1BD3 /* UIKit.framework */,
+				281CD16519C40357002B1BD3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281CD14C19C40357002B1BD3 /* Reloc */ = {
+			isa = PBXGroup;
+			children = (
+				281CD15519C40357002B1BD3 /* AppDelegate.h */,
+				281CD15619C40357002B1BD3 /* AppDelegate.m */,
+				281CD15819C40357002B1BD3 /* Main.storyboard */,
+				281CD15B19C40357002B1BD3 /* ViewController.h */,
+				281CD15C19C40357002B1BD3 /* ViewController.m */,
+				281CD15E19C40357002B1BD3 /* Images.xcassets */,
+				281CD14D19C40357002B1BD3 /* Supporting Files */,
+			);
+			path = Reloc;
+			sourceTree = "<group>";
+		};
+		281CD14D19C40357002B1BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281CD14E19C40357002B1BD3 /* Reloc-Info.plist */,
+				281CD14F19C40357002B1BD3 /* InfoPlist.strings */,
+				281CD15219C40357002B1BD3 /* main.m */,
+				281CD15419C40357002B1BD3 /* Reloc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		281CD16B19C40357002B1BD3 /* RelocTests */ = {
+			isa = PBXGroup;
+			children = (
+				281CD17119C40357002B1BD3 /* RelocTests.m */,
+				281CD16C19C40357002B1BD3 /* Supporting Files */,
+			);
+			path = RelocTests;
+			sourceTree = "<group>";
+		};
+		281CD16C19C40357002B1BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281CD16D19C40357002B1BD3 /* RelocTests-Info.plist */,
+				281CD16E19C40357002B1BD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281CD14219C40357002B1BD3 /* Reloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281CD17519C40357002B1BD3 /* Build configuration list for PBXNativeTarget "Reloc" */;
+			buildPhases = (
+				281CD13F19C40357002B1BD3 /* Sources */,
+				281CD14019C40357002B1BD3 /* Frameworks */,
+				281CD14119C40357002B1BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reloc;
+			productName = Reloc;
+			productReference = 281CD14319C40357002B1BD3 /* Reloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281CD16319C40357002B1BD3 /* RelocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281CD17819C40357002B1BD3 /* Build configuration list for PBXNativeTarget "RelocTests" */;
+			buildPhases = (
+				281CD16019C40357002B1BD3 /* Sources */,
+				281CD16119C40357002B1BD3 /* Frameworks */,
+				281CD16219C40357002B1BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281CD16A19C40357002B1BD3 /* PBXTargetDependency */,
+			);
+			name = RelocTests;
+			productName = RelocTests;
+			productReference = 281CD16419C40357002B1BD3 /* RelocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281CD13B19C40357002B1BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alekApps;
+				TargetAttributes = {
+					281CD16319C40357002B1BD3 = {
+						TestTargetID = 281CD14219C40357002B1BD3;
+					};
+				};
+			};
+			buildConfigurationList = 281CD13E19C40357002B1BD3 /* Build configuration list for PBXProject "Reloc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281CD13A19C40357002B1BD3;
+			productRefGroup = 281CD14419C40357002B1BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281CD14219C40357002B1BD3 /* Reloc */,
+				281CD16319C40357002B1BD3 /* RelocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281CD14119C40357002B1BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD15F19C40357002B1BD3 /* Images.xcassets in Resources */,
+				281CD15119C40357002B1BD3 /* InfoPlist.strings in Resources */,
+				281CD15A19C40357002B1BD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281CD16219C40357002B1BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD17019C40357002B1BD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281CD13F19C40357002B1BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD15D19C40357002B1BD3 /* ViewController.m in Sources */,
+				281CD15719C40357002B1BD3 /* AppDelegate.m in Sources */,
+				281CD15319C40357002B1BD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281CD16019C40357002B1BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CD17219C40357002B1BD3 /* RelocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281CD16A19C40357002B1BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281CD14219C40357002B1BD3 /* Reloc */;
+			targetProxy = 281CD16919C40357002B1BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281CD14F19C40357002B1BD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281CD15019C40357002B1BD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		281CD15819C40357002B1BD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281CD15919C40357002B1BD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281CD16E19C40357002B1BD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281CD16F19C40357002B1BD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281CD17319C40357002B1BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		281CD17419C40357002B1BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281CD17619C40357002B1BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
+				INFOPLIST_FILE = "Reloc/Reloc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		281CD17719C40357002B1BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
+				INFOPLIST_FILE = "Reloc/Reloc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		281CD17919C40357002B1BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reloc.app/Reloc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RelocTests/RelocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		281CD17A19C40357002B1BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reloc.app/Reloc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
+				INFOPLIST_FILE = "RelocTests/RelocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281CD13E19C40357002B1BD3 /* Build configuration list for PBXProject "Reloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281CD17319C40357002B1BD3 /* Debug */,
+				281CD17419C40357002B1BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281CD17519C40357002B1BD3 /* Build configuration list for PBXNativeTarget "Reloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281CD17619C40357002B1BD3 /* Debug */,
+				281CD17719C40357002B1BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281CD17819C40357002B1BD3 /* Build configuration list for PBXNativeTarget "RelocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281CD17919C40357002B1BD3 /* Debug */,
+				281CD17A19C40357002B1BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281CD13B19C40357002B1BD3 /* Project object */;
+}
