@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "BlurMenu.h"
+#import "PopoverContentViewController.h"
+#import "Item.h"
+#import "ItemCategory.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate, BlurMenuDelegate, PopoverContentDelegate, UIGestureRecognizerDelegate>
 
 @end

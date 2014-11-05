@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2818A91C19C48330008C015B /* HTAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A91919C48330008C015B /* HTAutocompleteTextField.m */; };
+		2818A92019C48499008C015B /* HTAutoCompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A91F19C48499008C015B /* HTAutoCompleteManager.m */; };
+		2818A92219C496F1008C015B /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2818A92119C496F1008C015B /* delete_icon@2x.png */; };
+		2818A92A19C4A6DB008C015B /* RWBlurPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A92919C4A6DB008C015B /* RWBlurPopover.m */; };
+		2818A92D19C4AF19008C015B /* RWBlurPopoverTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A92C19C4AF19008C015B /* RWBlurPopoverTransitionController.m */; };
+		2818A93019C4B08F008C015B /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A92F19C4B08F008C015B /* PopupViewController.m */; };
+		2818A93219C4B1B4008C015B /* pennapps_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2818A93119C4B1B4008C015B /* pennapps_logo.png */; };
+		2818A97619C4EE1C008C015B /* PageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A97519C4EE1C008C015B /* PageRootViewController.m */; };
+		2818A97919C4EEDA008C015B /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818A97819C4EEDA008C015B /* PageContentViewController.m */; };
 		281CD14719C40357002B1BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14619C40357002B1BD3 /* Foundation.framework */; };
 		281CD14919C40357002B1BD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14819C40357002B1BD3 /* CoreGraphics.framework */; };
 		281CD14B19C40357002B1BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14A19C40357002B1BD3 /* UIKit.framework */; };
@@ -21,6 +30,22 @@
 		281CD16819C40357002B1BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD14A19C40357002B1BD3 /* UIKit.framework */; };
 		281CD17019C40357002B1BD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281CD16E19C40357002B1BD3 /* InfoPlist.strings */; };
 		281CD17219C40357002B1BD3 /* RelocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD17119C40357002B1BD3 /* RelocTests.m */; };
+		281CD17C19C40509002B1BD3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CD17B19C40509002B1BD3 /* MapKit.framework */; };
+		281CD18219C4073E002B1BD3 /* BlurMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD17F19C4073E002B1BD3 /* BlurMenu.m */; };
+		281CD18319C4073E002B1BD3 /* BlurMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD18119C4073E002B1BD3 /* BlurMenuItemCell.m */; };
+		281CD18619C407EB002B1BD3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD18519C407EB002B1BD3 /* UIImage+ImageEffects.m */; };
+		281CD18819C40AD3002B1BD3 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281CD18719C40AD3002B1BD3 /* menu_icon@2x.png */; };
+		281CD18A19C40B22002B1BD3 /* add_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281CD18919C40B22002B1BD3 /* add_icon@2x.png */; };
+		281CD18C19C40B38002B1BD3 /* locate_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281CD18B19C40B38002B1BD3 /* locate_icon@2x.png */; };
+		2833CCB319C43204002B33F4 /* PopoverContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833CCB219C43204002B33F4 /* PopoverContentViewController.m */; };
+		2833CCB619C44E09002B33F4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833CCB519C44E09002B33F4 /* Item.m */; };
+		2833CCBF19C450E3002B33F4 /* ItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833CCBE19C450E3002B33F4 /* ItemCategory.m */; };
+		284413AD19C52D52003DEDEA /* Image 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 284413A819C52D52003DEDEA /* Image 1.png */; };
+		284413AE19C52D52003DEDEA /* Image 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 284413A919C52D52003DEDEA /* Image 2.png */; };
+		284413AF19C52D52003DEDEA /* Image 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 284413AA19C52D52003DEDEA /* Image 3.png */; };
+		284413B019C52D52003DEDEA /* Image 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 284413AB19C52D52003DEDEA /* Image 4.png */; };
+		284413B119C52D52003DEDEA /* Image 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 284413AC19C52D52003DEDEA /* Image 5.png */; };
+		28A20FC619C41FB8005699F6 /* UIPopoverController+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A20FC519C41FB8005699F6 /* UIPopoverController+iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2818A91819C48330008C015B /* HTAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAutocompleteTextField.h; sourceTree = "<group>"; };
+		2818A91919C48330008C015B /* HTAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAutocompleteTextField.m; sourceTree = "<group>"; };
+		2818A91E19C48499008C015B /* HTAutoCompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAutoCompleteManager.h; sourceTree = "<group>"; };
+		2818A91F19C48499008C015B /* HTAutoCompleteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAutoCompleteManager.m; sourceTree = "<group>"; };
+		2818A92119C496F1008C015B /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
+		2818A92819C4A6DB008C015B /* RWBlurPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWBlurPopover.h; sourceTree = "<group>"; };
+		2818A92919C4A6DB008C015B /* RWBlurPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWBlurPopover.m; sourceTree = "<group>"; };
+		2818A92B19C4AF19008C015B /* RWBlurPopoverTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWBlurPopoverTransitionController.h; sourceTree = "<group>"; };
+		2818A92C19C4AF19008C015B /* RWBlurPopoverTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWBlurPopoverTransitionController.m; sourceTree = "<group>"; };
+		2818A92E19C4B08F008C015B /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		2818A92F19C4B08F008C015B /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		2818A93119C4B1B4008C015B /* pennapps_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pennapps_logo.png; sourceTree = "<group>"; };
+		2818A97419C4EE1C008C015B /* PageRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageRootViewController.h; sourceTree = "<group>"; };
+		2818A97519C4EE1C008C015B /* PageRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageRootViewController.m; sourceTree = "<group>"; };
+		2818A97719C4EEDA008C015B /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		2818A97819C4EEDA008C015B /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		281CD14319C40357002B1BD3 /* Reloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		281CD14619C40357002B1BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		281CD14819C40357002B1BD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +94,29 @@
 		281CD16D19C40357002B1BD3 /* RelocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelocTests-Info.plist"; sourceTree = "<group>"; };
 		281CD16F19C40357002B1BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281CD17119C40357002B1BD3 /* RelocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelocTests.m; sourceTree = "<group>"; };
+		281CD17B19C40509002B1BD3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		281CD17E19C4073E002B1BD3 /* BlurMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurMenu.h; sourceTree = "<group>"; };
+		281CD17F19C4073E002B1BD3 /* BlurMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurMenu.m; sourceTree = "<group>"; };
+		281CD18019C4073E002B1BD3 /* BlurMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurMenuItemCell.h; sourceTree = "<group>"; };
+		281CD18119C4073E002B1BD3 /* BlurMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurMenuItemCell.m; sourceTree = "<group>"; };
+		281CD18419C407EB002B1BD3 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		281CD18519C407EB002B1BD3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		281CD18719C40AD3002B1BD3 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		281CD18919C40B22002B1BD3 /* add_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_icon@2x.png"; sourceTree = "<group>"; };
+		281CD18B19C40B38002B1BD3 /* locate_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locate_icon@2x.png"; sourceTree = "<group>"; };
+		2833CCB119C43204002B33F4 /* PopoverContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverContentViewController.h; sourceTree = "<group>"; };
+		2833CCB219C43204002B33F4 /* PopoverContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverContentViewController.m; sourceTree = "<group>"; };
+		2833CCB419C44E09002B33F4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		2833CCB519C44E09002B33F4 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		2833CCBD19C450E3002B33F4 /* ItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCategory.h; sourceTree = "<group>"; };
+		2833CCBE19C450E3002B33F4 /* ItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCategory.m; sourceTree = "<group>"; };
+		284413A819C52D52003DEDEA /* Image 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 1.png"; sourceTree = "<group>"; };
+		284413A919C52D52003DEDEA /* Image 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 2.png"; sourceTree = "<group>"; };
+		284413AA19C52D52003DEDEA /* Image 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 3.png"; sourceTree = "<group>"; };
+		284413AB19C52D52003DEDEA /* Image 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 4.png"; sourceTree = "<group>"; };
+		284413AC19C52D52003DEDEA /* Image 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 5.png"; sourceTree = "<group>"; };
+		28A20FC419C41FB7005699F6 /* UIPopoverController+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+iPhone.h"; sourceTree = "<group>"; };
+		28A20FC519C41FB8005699F6 /* UIPopoverController+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+iPhone.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281CD17C19C40509002B1BD3 /* MapKit.framework in Frameworks */,
 				281CD14919C40357002B1BD3 /* CoreGraphics.framework in Frameworks */,
 				281CD14B19C40357002B1BD3 /* UIKit.framework in Frameworks */,
 				281CD14719C40357002B1BD3 /* Foundation.framework in Frameworks */,
@@ -79,6 +144,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2818A91719C4831F008C015B /* HTAutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				2818A91819C48330008C015B /* HTAutocompleteTextField.h */,
+				2818A91919C48330008C015B /* HTAutocompleteTextField.m */,
+				2818A91E19C48499008C015B /* HTAutoCompleteManager.h */,
+				2818A91F19C48499008C015B /* HTAutoCompleteManager.m */,
+			);
+			name = HTAutoComplete;
+			sourceTree = "<group>";
+		};
+		2818A92719C4A6CD008C015B /* RWBlurPopover */ = {
+			isa = PBXGroup;
+			children = (
+				2818A92819C4A6DB008C015B /* RWBlurPopover.h */,
+				2818A92919C4A6DB008C015B /* RWBlurPopover.m */,
+				2818A92B19C4AF19008C015B /* RWBlurPopoverTransitionController.h */,
+				2818A92C19C4AF19008C015B /* RWBlurPopoverTransitionController.m */,
+			);
+			name = RWBlurPopover;
+			sourceTree = "<group>";
+		};
+		2818A98519C4FA78008C015B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				281CD18719C40AD3002B1BD3 /* menu_icon@2x.png */,
+				281CD18919C40B22002B1BD3 /* add_icon@2x.png */,
+				281CD18B19C40B38002B1BD3 /* locate_icon@2x.png */,
+				2818A92119C496F1008C015B /* delete_icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		281CD13A19C40357002B1BD3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +199,7 @@
 		281CD14519C40357002B1BD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				281CD17B19C40509002B1BD3 /* MapKit.framework */,
 				281CD14619C40357002B1BD3 /* Foundation.framework */,
 				281CD14819C40357002B1BD3 /* CoreGraphics.framework */,
 				281CD14A19C40357002B1BD3 /* UIKit.framework */,
@@ -112,11 +211,28 @@
 		281CD14C19C40357002B1BD3 /* Reloc */ = {
 			isa = PBXGroup;
 			children = (
+				2818A92719C4A6CD008C015B /* RWBlurPopover */,
+				2818A91719C4831F008C015B /* HTAutoComplete */,
+				281CD17D19C40733002B1BD3 /* BlurMenu */,
 				281CD15519C40357002B1BD3 /* AppDelegate.h */,
 				281CD15619C40357002B1BD3 /* AppDelegate.m */,
+				28A20FC419C41FB7005699F6 /* UIPopoverController+iPhone.h */,
+				28A20FC519C41FB8005699F6 /* UIPopoverController+iPhone.m */,
 				281CD15819C40357002B1BD3 /* Main.storyboard */,
 				281CD15B19C40357002B1BD3 /* ViewController.h */,
 				281CD15C19C40357002B1BD3 /* ViewController.m */,
+				2818A92E19C4B08F008C015B /* PopupViewController.h */,
+				2818A92F19C4B08F008C015B /* PopupViewController.m */,
+				2833CCB119C43204002B33F4 /* PopoverContentViewController.h */,
+				2833CCB219C43204002B33F4 /* PopoverContentViewController.m */,
+				2833CCBD19C450E3002B33F4 /* ItemCategory.h */,
+				2833CCBE19C450E3002B33F4 /* ItemCategory.m */,
+				2833CCB419C44E09002B33F4 /* Item.h */,
+				2833CCB519C44E09002B33F4 /* Item.m */,
+				2818A97419C4EE1C008C015B /* PageRootViewController.h */,
+				2818A97519C4EE1C008C015B /* PageRootViewController.m */,
+				2818A97719C4EEDA008C015B /* PageContentViewController.h */,
+				2818A97819C4EEDA008C015B /* PageContentViewController.m */,
 				281CD15E19C40357002B1BD3 /* Images.xcassets */,
 				281CD14D19C40357002B1BD3 /* Supporting Files */,
 			);
@@ -126,6 +242,9 @@
 		281CD14D19C40357002B1BD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				284413A719C52D52003DEDEA /* Intro 2 */,
+				2818A98519C4FA78008C015B /* Icons */,
+				2818A93119C4B1B4008C015B /* pennapps_logo.png */,
 				281CD14E19C40357002B1BD3 /* Reloc-Info.plist */,
 				281CD14F19C40357002B1BD3 /* InfoPlist.strings */,
 				281CD15219C40357002B1BD3 /* main.m */,
@@ -150,6 +269,31 @@
 				281CD16E19C40357002B1BD3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		281CD17D19C40733002B1BD3 /* BlurMenu */ = {
+			isa = PBXGroup;
+			children = (
+				281CD17E19C4073E002B1BD3 /* BlurMenu.h */,
+				281CD17F19C4073E002B1BD3 /* BlurMenu.m */,
+				281CD18019C4073E002B1BD3 /* BlurMenuItemCell.h */,
+				281CD18119C4073E002B1BD3 /* BlurMenuItemCell.m */,
+				281CD18419C407EB002B1BD3 /* UIImage+ImageEffects.h */,
+				281CD18519C407EB002B1BD3 /* UIImage+ImageEffects.m */,
+			);
+			name = BlurMenu;
+			sourceTree = "<group>";
+		};
+		284413A719C52D52003DEDEA /* Intro 2 */ = {
+			isa = PBXGroup;
+			children = (
+				284413A819C52D52003DEDEA /* Image 1.png */,
+				284413A919C52D52003DEDEA /* Image 2.png */,
+				284413AA19C52D52003DEDEA /* Image 3.png */,
+				284413AB19C52D52003DEDEA /* Image 4.png */,
+				284413AC19C52D52003DEDEA /* Image 5.png */,
+			);
+			path = "Intro 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +343,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = alekApps;
 				TargetAttributes = {
+					281CD14219C40357002B1BD3 = {
+						DevelopmentTeam = W96SY39A42;
+					};
 					281CD16319C40357002B1BD3 = {
 						TestTargetID = 281CD14219C40357002B1BD3;
 					};
@@ -228,8 +375,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281CD18C19C40B38002B1BD3 /* locate_icon@2x.png in Resources */,
+				284413B019C52D52003DEDEA /* Image 4.png in Resources */,
 				281CD15F19C40357002B1BD3 /* Images.xcassets in Resources */,
+				284413AF19C52D52003DEDEA /* Image 3.png in Resources */,
+				281CD18A19C40B22002B1BD3 /* add_icon@2x.png in Resources */,
+				281CD18819C40AD3002B1BD3 /* menu_icon@2x.png in Resources */,
+				284413B119C52D52003DEDEA /* Image 5.png in Resources */,
+				2818A92219C496F1008C015B /* delete_icon@2x.png in Resources */,
+				284413AE19C52D52003DEDEA /* Image 2.png in Resources */,
 				281CD15119C40357002B1BD3 /* InfoPlist.strings in Resources */,
+				2818A93219C4B1B4008C015B /* pennapps_logo.png in Resources */,
+				284413AD19C52D52003DEDEA /* Image 1.png in Resources */,
 				281CD15A19C40357002B1BD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +406,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2833CCB619C44E09002B33F4 /* Item.m in Sources */,
+				2818A92A19C4A6DB008C015B /* RWBlurPopover.m in Sources */,
 				281CD15D19C40357002B1BD3 /* ViewController.m in Sources */,
+				2818A97619C4EE1C008C015B /* PageRootViewController.m in Sources */,
+				2833CCBF19C450E3002B33F4 /* ItemCategory.m in Sources */,
+				2818A93019C4B08F008C015B /* PopupViewController.m in Sources */,
+				28A20FC619C41FB8005699F6 /* UIPopoverController+iPhone.m in Sources */,
+				2818A91C19C48330008C015B /* HTAutocompleteTextField.m in Sources */,
+				281CD18319C4073E002B1BD3 /* BlurMenuItemCell.m in Sources */,
+				281CD18619C407EB002B1BD3 /* UIImage+ImageEffects.m in Sources */,
 				281CD15719C40357002B1BD3 /* AppDelegate.m in Sources */,
+				2818A92019C48499008C015B /* HTAutoCompleteManager.m in Sources */,
+				2818A92D19C4AF19008C015B /* RWBlurPopoverTransitionController.m in Sources */,
 				281CD15319C40357002B1BD3 /* main.m in Sources */,
+				2833CCB319C43204002B33F4 /* PopoverContentViewController.m in Sources */,
+				2818A97919C4EEDA008C015B /* PageContentViewController.m in Sources */,
+				281CD18219C4073E002B1BD3 /* BlurMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
 				INFOPLIST_FILE = "Reloc/Reloc-Info.plist";
@@ -389,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reloc/Reloc-Prefix.pch";
 				INFOPLIST_FILE = "Reloc/Reloc-Info.plist";
@@ -456,6 +629,7 @@
 				281CD17719C40357002B1BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281CD17819C40357002B1BD3 /* Build configuration list for PBXNativeTarget "RelocTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +638,7 @@
 				281CD17A19C40357002B1BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
